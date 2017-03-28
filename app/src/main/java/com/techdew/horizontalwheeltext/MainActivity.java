@@ -9,14 +9,14 @@ import com.techdew.lib.HorizontalWheel.ArrayWheelAdapter;
 import com.techdew.lib.HorizontalWheel.OnWheelScrollListener;
 
 public class MainActivity extends AppCompatActivity implements OnWheelScrollListener {
-   AbstractWheel abstractWheel;
+
     String[] values;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        abstractWheel = (AbstractWheel) findViewById(R.id.HorizontalView);
+        AbstractWheel abstractWheel = (AbstractWheel) findViewById(R.id.HorizontalView);
         values = new String[100];
         for (int i = 0; i < 100; i++) {
             values[i] = String.valueOf(25 * (i));
