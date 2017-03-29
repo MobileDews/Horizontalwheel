@@ -22,7 +22,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 	
 	dependencies {
-    	        compile 'com.github.MobileDews:Horizontalwheel:-SNAPSHOT'
+    	        compile 'com.github.MobileDews:Horizontalwheel:1.0.1'
     	}
     	
     	
